@@ -1,0 +1,584 @@
+/* ===  Staff ==========
+
+
+		========================= */
+
+
+		/* General container for Staff */
+
+	.general-container-staff-navbar-closed-Chin-Chin {
+		background-image: url('../orange_cocktail/orange_background_3.jpg');
+		background-blend-mode: overlay;
+		background-position: center ;
+		background-color: #282424;
+		height: 360vh;
+		padding: 2em 1em 0em;
+
+	}
+
+		/* Title Staff */
+
+
+	.h3-meet-staff-Navbar-Closed-Chin-Chin {
+			color: #FFF;
+			margin-top: 3em;
+			text-align: center;
+			margin-bottom: 0.5em;
+	}
+
+		/* "come enjoying your favourite drinks.." */
+
+	.p-favourite-drink-staff-navbar-closed-Chin-Chin {
+			color: #FFF;
+			text-align: center;
+			margin-bottom: 4.5em;
+
+	}
+
+		/* Container for all the cards */
+
+
+	.container-for-all-img-name-navbar-closed-Chin-Chin {
+		display: grid;
+		place-content: center ;
+		/*padding: 0 1em 0em;*/
+		box-shadow: 2px 2px 10px black;
+		grid-template-areas:"member1"
+							"member2"
+							"member3"
+							"member4"
+							"member5"
+							"member6";
+		border-radius: 1%;
+	}
+
+
+	.container-for-all-img-name-navbar-closed-Chin-Chin {
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}
+	
+
+
+	
+
+		/* Container for all the cards */
+
+	.container-for-all-img-name-navbar-closed-Chin-Chin:hover {
+		box-shadow: 1px 1px 3px #FFF;
+		cursor: pointer;
+	}
+
+
+
+		/* container for each picture of staff member */
+
+	/*.div-individual-staff-member-1-navbar-closed-Chin-Chin, 
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin {
+		position: relative;
+	
+		color: #eff1e4;
+		margin-top: 3em;
+		margin-bottom: 0;
+		display: flex;
+		flex-direction: column; 
+		align-items: center;
+		display: grid;
+		grid-template-areas: "avatar1 name1"
+							 "avatar2 name2"
+							 "avatar3 name3"
+							 "avatar4 name4"
+							 "avatar5 name5"
+							 "avatar6 name6";
+		border-radius: 4%;
+
+
+	}
+
+
+
+
+	.div-individual-staff-member-1-navbar-closed-Chin-Chin {
+		grid-area: member1;
+	}
+
+
+
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin {
+		grid-area: member2;
+	}
+
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin {
+		grid-area: member3;
+	}
+
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin {
+		grid-area: member4;
+	}
+
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin {
+		grid-area: member5;
+	}
+
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin {
+		grid-area: member6;
+	}
+
+
+
+
+	.div-individual-staff-member-1-navbar-closed-Chin-Chin:hover,
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:hover,
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:hover,
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:hover,
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:hover,
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:hover {
+		box-shadow: 1px 1px 3px;
+		cursor: pointer;
+
+	} */
+
+
+
+
+
+	/* phrase associated to each staff member */
+
+
+	.p-name-staff-1-Chin-Chin,
+	.p-name-staff-2-Chin-Chin,
+	.p-name-staff-3-Chin-Chin,
+	.p-name-staff-4-Chin-Chin,
+	.p-name-staff-5-Chin-Chin,
+	.p-name-staff-6-Chin-Chin {
+		margin-top: 0;
+		margin-bottom: 0;
+		color: #FFF;
+		
+	}
+
+	.p-name-staff-1-Chin-Chin{
+		grid-area: name1;
+	}
+
+
+	.p-name-staff-2-Chin-Chin{
+		grid-area: name2;
+	}
+
+	.p-name-staff-3-Chin-Chin{
+		grid-area: name3;
+	}
+
+	.p-name-staff-4-Chin-Chin{
+		grid-area: name4;
+	}
+
+	.p-name-staff-5-Chin-Chin{
+		grid-area: name5;
+	}
+
+	.p-name-staff-6-Chin-Chin{
+		grid-area: name6;
+	}
+
+
+
+	/* phrase associated to each staff member */
+
+
+
+	.p-name-staff-1-Chin-Chin,
+	.p-name-staff-2-Chin-Chin,
+	.p-name-staff-3-Chin-Chin,
+	.p-name-staff-4-Chin-Chin,
+	.p-name-staff-5-Chin-Chin,
+	.p-name-staff-6-Chin-Chin{
+		position: relative;
+		height: 10rem;
+		width: 100%;
+		padding: 1em 1em 0em;
+		text-align: center;
+		color: grey;
+		filter: opacity(1);
+		filter: brightness(0.7);
+		transition: filter 200ms ease-in, color 300ms ease-in;
+		
+	}
+
+
+
+
+
+	.p-name-staff-1-Chin-Chin:after {
+		background-image: url('../orange_cocktail/staff_negroni.jpg');
+		filter: opacity(0.4);
+	}
+
+	.p-name-staff-2-Chin-Chin:after {
+		background-image: url('../orange_cocktail/staff_margarita.png');
+		background-position: center;
+		filter: opacity(0.4);
+
+	}
+
+	.p-name-staff-3-Chin-Chin:after {
+		background-image: url('../orange_cocktail/staff_martini.png');
+		background-position: top;
+		filter: opacity(0.4);
+
+	}
+
+	.p-name-staff-4-Chin-Chin:after {
+		background-image: url('../orange_cocktail/staff_old_fashioned_4.png');
+		background-position: center;
+		filter: opacity(0.4);
+
+	}
+
+	.p-name-staff-5-Chin-Chin:after {
+		background-image: url('../orange_cocktail/staff_gin_&_tonic.png');;
+		background-position: center;
+		filter: opacity(0.4);
+
+	}
+
+	.p-name-staff-6-Chin-Chin:after {
+		background-image: url('../orange_cocktail/staff_aperol.png');;;
+		background-position: center;
+		filter: opacity(0.4);
+
+	}
+
+
+
+	.p-name-staff-1-Chin-Chin:after,
+	.p-name-staff-2-Chin-Chin:after,
+	.p-name-staff-3-Chin-Chin:after,
+	.p-name-staff-4-Chin-Chin:after,
+	.p-name-staff-5-Chin-Chin:after,
+	.p-name-staff-6-Chin-Chin:after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-blend-mode: multiply;
+		background-size: cover;
+		background-color: grey;
+		top: 0;
+		left: 0;
+		position: absolute;
+		overflow: hidden;
+
+	}
+
+
+	.div-individual-staff-member-1-navbar-closed-Chin-Chin:hover .p-name-staff-1-Chin-Chin, 
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:hover .p-name-staff-2-Chin-Chin,
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:hover .p-name-staff-3-Chin-Chin,
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:hover .p-name-staff-4-Chin-Chin,
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:hover .p-name-staff-5-Chin-Chin,
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:hover .p-name-staff-6-Chin-Chin {
+		filter: opacity(1);
+		filter: brightness(1.1);
+		color: #FFF;
+
+	}
+
+	/*.p-name-staff-1-Chin-Chin:before {
+		content: '';
+		width: 100%;
+		height: 70%;
+		background: #000;
+		filter: opacity(0.9);
+		
+		left: 0;
+		top: 3rem;
+		position: absolute;
+	
+	}  */
+
+
+
+
+
+
+
+		/* container for each picture of staff member decoration */
+
+
+	/*.div-individual-staff-member-1-navbar-closed-Chin-Chin:before,
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:before,
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:before,
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:before,
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:before,
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:before {
+		content: '';
+		position: absolute ;
+		background-repeat: no-repeat;
+		filter: blur(15px);
+		width: 210px;
+		height: 125%;;
+		z-index: -1;
+		top: -15%;
+		transition: filter 400ms ease-in, transform 500ms ease-in;
+
+
+
+	} */
+
+
+
+/*
+
+
+
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin {
+		margin-bottom: 18em;
+		
+		
+
+	}
+
+
+
+	.div-individual-staff-member-1-navbar-closed-Chin-Chin:before {
+		background-image: url('../orange_cocktail/staff_negroni.jpg');
+	}
+
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:before {
+		background-image: url('../orange_cocktail/staff_margarita.png');
+
+	}
+
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:before {
+		background-image: url('../orange_cocktail/staff_martini.png');
+
+	}
+
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:before {
+		background-image: url('../orange_cocktail/staff_old_fashioned_4.png');
+		
+	}
+
+
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:before {
+		background-image: url('../orange_cocktail/staff_gin_&_tonic.png');
+		
+	}
+
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:before {
+		background-image: url('../orange_cocktail/staff_aperol.png');
+		
+		
+	} */
+
+
+	.avatar-staff-1-navbar-closed-Chin-Chin {
+		grid-area: avatar1;
+		overflow: hidden;
+
+
+	}
+
+	.avatar-staff-2-navbar-closed-Chin-Chin {
+		grid-area: avatar2;
+		
+
+	}
+
+	.avatar-staff-3-navbar-closed-Chin-Chin {
+		grid-area: avatar3;
+
+	}
+
+	.avatar-staff-4-navbar-closed-Chin-Chin {
+		grid-area: avatar4;
+
+	}
+
+	.avatar-staff-5-navbar-closed-Chin-Chin {
+		grid-area: avatar5;
+
+	}
+
+	.avatar-staff-6-navbar-closed-Chin-Chin {
+		grid-area: avatar6;
+
+	}
+
+
+
+
+	.avatar-staff-1-navbar-closed-Chin-Chin,
+	.avatar-staff-2-navbar-closed-Chin-Chin,
+	.avatar-staff-3-navbar-closed-Chin-Chin,
+	.avatar-staff-4-navbar-closed-Chin-Chin,
+	.avatar-staff-5-navbar-closed-Chin-Chin,
+	.avatar-staff-6-navbar-closed-Chin-Chin {
+
+		margin-bottom: 0em;
+		
+		margin: 0;
+		/*transition: opacity 400ms ease-out 200ms;*/
+		
+	
+		
+	
+		/*border-radius: 10%; */
+		/*border: 2px solid #eff1e4 /*#21325E*/; /*
+		/*border-radius: 50%; */
+		filter: grayscale(0.7);
+		filter: brightness(0.8);
+		transition: filter 400ms ease-in;
+		border-radius: 4%;
+
+
+		
+	}
+
+
+
+
+
+
+	.avatar-staff-1-navbar-closed-Chin-Chin:hover,
+	.avatar-staff-2-navbar-closed-Chin-Chin:hover,
+	.avatar-staff-3-navbar-closed-Chin-Chin:hover,
+	.avatar-staff-4-navbar-closed-Chin-Chin:hover,
+	.avatar-staff-5-navbar-closed-Chin-Chin:hover,
+	.avatar-staff-6-navbar-closed-Chin-Chin:hover {
+		cursor: pointer;
+		filter: grayscale(0);
+		filter: brightness(1.1);
+
+
+
+	}
+
+	.name-staff-1-navbar-closed-Chin-Chin,
+	.name-staff-2-navbar-closed-Chin-Chin,
+	.name-staff-3-navbar-closed-Chin-Chin,
+	.name-staff-4-navbar-closed-Chin-Chin,
+	.name-staff-5-navbar-closed-Chin-Chin,
+	.name-staff-6-navbar-closed-Chin-Chin {
+		color: #FFF;
+		text-align: center;
+		font-size: 1.20rem;
+		font-weight: bolder;
+		transition: color 400ms ease-in;
+
+	}
+
+	/*.favourite-drink-staff-member-1-navbar-closed-Chin-Chin,
+	.favourite-drink-staff-member-2-navbar-closed-Chin-Chin,
+	.favourite-drink-staff-member-3-navbar-closed-Chin-Chin,
+	.favourite-drink-staff-member-4-navbar-closed-Chin-Chin,
+	.favourite-drink-staff-member-5-navbar-closed-Chin-Chin,
+	.favourite-drink-staff-member-6-navbar-closed-Chin-Chin {
+		opacity: 0;
+		transition: opacity 400ms ease-in ;
+		display: none;
+	
+	} */
+
+
+
+/*
+	.div-individual-staff-member-1-navbar-closed-Chin-Chin:hover::before,
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:hover::before,
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:hover::before,
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:hover::before,
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:hover::before,
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:hover::before {
+		cursor: pointer;		
+		filter: blur(0);
+		transform: scale(1.04);
+	}
+
+	*/
+
+
+
+
+/*	.div-individual-staff-member-1-navbar-closed-Chin-Chin:hover .avatar-staff-1-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:hover .avatar-staff-2-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:hover .avatar-staff-3-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:hover .avatar-staff-4-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:hover .avatar-staff-5-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:hover .avatar-staff-6-navbar-closed-Chin-Chin {
+		opacity: 0;
+
+	}
+
+	.div-individual-staff-member-1-navbar-closed-Chin-Chin:hover .name-staff-1-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:hover .name-staff-2-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:hover .name-staff-3-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:hover .name-staff-4-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:hover .name-staff-5-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:hover .name-staff-6-navbar-closed-Chin-Chin {
+		color: transparent;
+		
+	
+	} 
+
+	.div-individual-staff-member-1-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-1-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-2-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-3-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-4-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-5-navbar-closed-Chin-Chin,
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-6-navbar-closed-Chin-Chin {
+		opacity: 1;
+		position: absolute;
+		top: 40%;
+		font-size: 1.50rem;
+		color: #FFF;
+		display: unset;
+		font-weight: bolder;
+
+
+	}
+
+	.div-individual-staff-member-1-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-1-navbar-closed-Chin-Chin {
+		top: 2.5rem;
+		min-width: 400px;
+		text-align: center;
+
+	}
+
+
+	.div-individual-staff-member-2-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-2-navbar-closed-Chin-Chin {
+		font-size: 1.80rem;
+	}
+
+	.div-individual-staff-member-3-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-3-navbar-closed-Chin-Chin {
+		min-width: 400px;
+		text-align: center;
+
+	}
+
+	.div-individual-staff-member-4-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-4-navbar-closed-Chin-Chin {
+		font-size: 1.40rem;
+		min-width: 400px;
+		position: absolute;
+		top: -1.6rem;
+		text-align: center;
+	}
+
+	.div-individual-staff-member-5-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-5-navbar-closed-Chin-Chin {
+		min-width: 400px;
+		text-align: center;
+		top: 0;
+	}
+
+	.div-individual-staff-member-6-navbar-closed-Chin-Chin:hover .favourite-drink-staff-member-6-navbar-closed-Chin-Chin {
+		top: 0;
+		min-width: 400px;
+		text-align: center;
+	}
+
+	*/
